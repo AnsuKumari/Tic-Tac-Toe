@@ -2180,7 +2180,7 @@ void menu()
 				cg1();
 			else
 				cg2();
-			cout<<"\n\t\t\tDo yo want to play again?";
+			cout<<"\n\t\t\tDo yo want to play again? ";
 			cin>>y;
 			if(y=='y'||y=='Y')
 				clrb();
@@ -2201,7 +2201,7 @@ void menu()
 		do
 		{
 			pg();
-			cout<<"\n\t\t\tDo yo want to play again?";
+			cout<<"\n\t\t\tDo yo want to play again? ";
 			cin>>y;
 			if(y=='y'||y=='Y')
 				clrb();
@@ -2313,8 +2313,70 @@ void welcome()
 	delay(4000);
 }
 
+void end()
+{
+	clrscr();
+	delay(200);
+	cout<<"*************          ******          ****        ****  *************\n";
+	delay(200);
+	cout<<"*************         ***  ***         *** **    ** ***  ************ \n";
+	delay(200);
+	cout<<"***       ***        ***    ***        ***   ** **  ***  ***          \n";
+	delay(200);
+	cout<<"***                 ***      ***       ***    ***   ***  ***          \n";
+	delay(200);
+	cout<<"***   *******      **************      ***          ***  **********   \n";
+	delay(200);
+	cout<<"***   **  ***     ****************     ***          ***  ***          \n";
+	delay(200);
+	cout<<"***       ***    ***            ***    ***          ***  ***          \n";
+	delay(200);
+	cout<<"*************   ***              ***   ***          ***  ************ \n";
+	delay(200);
+	cout<<"*************  ***                ***  ***          ***  *************\n";
+	delay(200);
+	cout<<"                                                                      \n";
+	delay(200);
+	cout<<"               ************   ***               ***  *************  ***********\n";
+	delay(200);
+	cout<<"              **************   ***             ***   ************   ***     ***\n";
+	delay(200);
+	cout<<"              ***         ***   ***           ***    ***            ***     ***\n";
+	delay(200);
+	cout<<"              ***         ***    ***         ***     ***            ***********\n";
+	delay(200);
+	cout<<"              ***         ***     ***       ***      *********      *****      \n";
+	delay(200);
+	cout<<"              ***         ***      ***     ***       ***            ***  ***   \n";
+	delay(200);
+	cout<<"              ***         ***       ***   ***        ***            ***   ***  \n";
+	delay(200);
+	cout<<"              ***************        *** ***         ************   ***    *** \n";
+	delay(200);
+	cout<<"               *************          *****          *************  ***      ***\n";
+	delay(200);
+	cout<<"  \n";
+	delay(4000);
+	clrscr();
+	cout<<"\n\n\n\n\n\n\n\n\n\t\t\tA PROJECT BY :-";
+	delay(1000);
+	cout<<"\n\n\n\t\t\t\tAditya";
+	delay(1000);
+	cout<<"\n\t\t\t\tAnsu";
+	delay(1000);
+	cout<<"\n\t\t\t\tNirbhay";
+	delay(1000);
+	cout<<"\n\t\t\t\tSahil";
+	delay(1000);
+	cout<<"\n\t\t\t\tVikram";
+	delay(1000);
+	cout<<"\n\n\n\t\t\tPress any key to exit.";
+	getch();
+}
+
 void main()
 {
 	welcome();
 	menu();
+	end();
 }
